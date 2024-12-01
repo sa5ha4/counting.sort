@@ -68,7 +68,7 @@ def display_numbers(original_numbers, sorted_numbers):
     
     #Parādīt sakārtotus skaitļus
 
-    canvas.create_text(20, 80 + len(original_numbers) * 20 + 20, text="Sorted data:", fill="#8bc26b",  font = "System 20", anchor="nw")
+    canvas.create_text(20, 90 + len(original_numbers) * 20 + 20, text="Sorted data:", fill="#8bc26b",  font = "System 20", anchor="nw")
     for index, num in enumerate(sorted_numbers):
         canvas.create_text(30, 90 + len(original_numbers) * 30 + index * 30 + 20, text=num, fill="#83ab5e",  font = "System 18", anchor="nw")
 
